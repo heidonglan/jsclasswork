@@ -1,0 +1,11 @@
+extends layout
+block content
+h1=title
+from(method='post')
+| 用户名
+input(name='user')
+br
+| 密码
+input(name='pwd' type='password')
+br
+button 登录
